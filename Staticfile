@@ -1,0 +1,4 @@
+root: .
+clean_urls: true
+directory_index: home.html
+

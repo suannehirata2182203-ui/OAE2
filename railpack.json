@@ -1,0 +1,11 @@
+{
+  "build": {
+    "type": "static",
+    "output": ".",
+    "index": "home.html"
+  },
+  "routes": {
+    "/": "home.html"
+  }
+}
+

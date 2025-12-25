@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^$ home.html [L]
+
+DirectoryIndex home.html
+
