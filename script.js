@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    if (window.location.pathname === '/' || window.location.pathname.endsWith('/') || window.location.pathname.includes('index.html')) {
+    if (window.location.pathname.includes('home.html') || window.location.pathname === '/' || window.location.pathname.endsWith('/')) {
         const cookieConsent = localStorage.getItem('cookieConsent');
         if (!cookieConsent && cookieBanner) {
             setTimeout(function() {
